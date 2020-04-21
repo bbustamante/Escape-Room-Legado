@@ -1,0 +1,13 @@
+## REWRITE DEFAULTS
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^(resources)($|/) - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ $1/ [R=301,L]
+
+RewriteRule ^(.*)/$ index.php?chapter=$1 [B,QSA]

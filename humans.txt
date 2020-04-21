@@ -1,0 +1,10 @@
+/* TEAM */
+    Senior Developer: Beñat Bustamante.
+    Site: https://www.bbustamante.com.
+    Location: Bilbao, Spain.
+
+/* SITE */
+    Last update: 2020/04/14
+    Standards: HTML5, CSS3, Bootstrap 4, Font Awesome 5 Pro
+    Components: jQuery, jQuery Countdown
+    Software: Atom, GitHub

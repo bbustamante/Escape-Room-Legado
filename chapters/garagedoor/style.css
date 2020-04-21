@@ -1,0 +1,19 @@
+#countdown {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #f00;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 15px;
+}
+
+#garagecontrol {
+  position: absolute;
+  display: none;
+  right: 10px;
+}
+
+.countdown-paused {
+  background-color: #008000 !important;
+}

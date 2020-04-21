@@ -1,0 +1,36 @@
+#wifilist li {
+  cursor: pointer;
+}
+
+#wifilist .wifiErrorMsg{
+  font-size: xx-small;
+}
+
+.errorPass {
+  border-color: #f00;
+}
+
+#frequency {
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+#frequency > div > div {
+  padding: 10px;
+}
+
+#frequency > div > div .freqnumber {
+  font-family: 'Source Code Pro', monospace;
+  font-size: xx-large;
+  padding: 5px;
+  background-color: #000;
+  color: #78EF3E;
+}
+
+#frequency > div > div .freqnumber:first-of-type {
+  margin-right: 10px;
+}
+
+#frequency > div > div button {
+  margin-top: 10px;
+}

@@ -1,0 +1,14 @@
+.endtext {
+  padding: 20px 5% 0;
+  font-family: 'Ruthie', cursive;
+  font-size: xxx-large;
+}
+
+.endsign {
+  font-family: 'Special Elite', cursive;
+  font-size: medium;
+}
+
+.sharebtns a {
+  text-decoration: none !important;
+}

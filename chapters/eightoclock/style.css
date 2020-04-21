@@ -1,0 +1,26 @@
+#flag2, #flagmeh, #song2, #clapon {
+  display: none;
+}
+
+#flaguploaderform {
+  visibility: hidden;
+}
+
+#flag2 img,
+#song2 img {
+  max-height: 200px;
+  margin-bottom: 15px;
+}
+
+#song1 .row > div > div {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #efefef;
+  cursor: pointer;
+}
+
+#song1 .row > div > div.selected {
+  background-color: #050505;
+  color: #efefef;
+}

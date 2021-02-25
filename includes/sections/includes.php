@@ -12,7 +12,9 @@
 <link rel="stylesheet" href="/assets/ekko-lightbox/ekko-lightbox.css">
 <script src="/assets/ekko-lightbox/ekko-lightbox.min.js"></script>
 
-<script src="https://kit.fontawesome.com/2ae3e6b57b.js" crossorigin="anonymous"></script>
+<!-- FontAwesome Kit
+================================================== -->
+<link href="/assets/font-awesome/css/all.css" rel="stylesheet">
 
 <!-- Includes
 ================================================== -->

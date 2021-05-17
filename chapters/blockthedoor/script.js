@@ -10,7 +10,8 @@ function lostpassend(event) {
     email: $('#lostpassmail').val()
   })
   .done(function( data ) {
-    if(data.status == 'OK' ) {
+    let response = JSON.parse(data);
+    if(response.status == 'OK' ) {
       $( '#lostpassstep1' ).hide();
       $( '#lostpassstep2' ).show();
       $( '.modal-footer' ).hide();
